@@ -1,8 +1,6 @@
-region         = "us-east-1"
-project_name   = "cloudx"
-azs            = 3
-s3_bucket_name = "introtask1-github-actions-nvizzz"
-s3_bucket_path = "dev/terraform.tfstate"
+region       = "us-east-1"
+project_name = "cloudx"
+azs          = 3
 
 common_tags = {
   Environment = "Development"

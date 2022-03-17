@@ -8,9 +8,9 @@ terraform {
   required_version = "~> 1.0"
 
   backend "s3" {
-    bucket = var.s3_bucket_name
-    key    = var.s3_bucket_path
-    region = var.region
+    bucket = "introtask1-github-actions-nvizzz"
+    key    = "dev/terraform.tfstate"
+    region = "us-east-1"
   }
 }
 

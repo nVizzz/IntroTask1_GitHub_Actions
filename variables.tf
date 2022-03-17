@@ -20,16 +20,6 @@ variable "common_tags" {
   type        = map(any)
 }
 
-variable "s3_bucket_name" {
-  description = "S3 bucket name"
-  type        = string
-}
-
-variable "s3_bucket_path" {
-  description = "S3 bucket path"
-  type        = string
-}
-
 #VPC variables:
 
 variable "vpc_cidr" {
