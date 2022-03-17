@@ -100,7 +100,7 @@ target_group_port          = 80
 target_group_protocol      = "HTTP"
 
 #DB variables:
-
+/*
 allocated_storage       = 20
 backup_retention_period = 10
 engine                  = "mysql"
@@ -111,3 +111,4 @@ parameter_group_name    = "default.mysql8.0"
 skip_final_snapshot     = true
 storage_type            = "gp2"
 username                = "admin"
+*/

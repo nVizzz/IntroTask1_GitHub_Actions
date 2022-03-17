@@ -182,7 +182,7 @@ variable "db_password" {
 }
 
 #DB variables:
-
+/*
 variable "allocated_storage" {
   description = "Allocated storage in GB"
   type        = number
@@ -232,3 +232,4 @@ variable "username" {
   description = "DB username"
   type        = string
 }
+*/
