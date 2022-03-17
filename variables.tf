@@ -176,11 +176,6 @@ variable "target_group_protocol" {
   type        = string
 }
 
-variable "db_password" {
-  description = "Database password"
-  type        = string
-}
-
 #DB variables:
 /*
 variable "allocated_storage" {
@@ -191,6 +186,11 @@ variable "allocated_storage" {
 variable "backup_retention_period" {
   description = "Backup retention period for read replica"
   type        = number
+}
+
+variable "db_password" {
+  description = "Database password"
+  type        = string
 }
 
 variable "engine" {
