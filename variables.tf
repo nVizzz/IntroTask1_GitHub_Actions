@@ -177,7 +177,7 @@ variable "target_group_protocol" {
 }
 
 #DB variables:
-/*
+/*Test
 variable "allocated_storage" {
   description = "Allocated storage in GB"
   type        = number
