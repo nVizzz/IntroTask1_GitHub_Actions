@@ -10,6 +10,8 @@ jobs:
   terraform:
     name: "Terraform"
     runs-on: ubuntu-latest
+    env:
+      TF_VAR_ssh_key: ${{ secrets.SSH_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
