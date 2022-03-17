@@ -116,7 +116,7 @@ output "lb" {
 }
 
 #Database output:
-
+/*
 output "db_main" {
   description = "ID of the main DB"
   value       = module.db.db_main
@@ -126,3 +126,4 @@ output "db_replica" {
   description = "ID of the replica DB"
   value       = module.db.db_replica
 }
+*/
